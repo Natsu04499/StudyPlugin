@@ -1,0 +1,13 @@
+name: MyPlugin
+version: 1.0
+author: Natsu_SH
+main: fr.natsu.myplugin.Main
+commands:
+  test:
+    description: Ceci est une commande de test
+    permission: test.use
+  alert:
+    description: Ceci est un broadcast custom
+    permission: bc.use
+  spawn:
+    description: Ceci est unne commande de spawn
